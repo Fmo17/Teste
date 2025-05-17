@@ -1,7 +1,7 @@
 const form = document.getElementById('form-inscricao');
 const mensagem = document.getElementById('mensagem');
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyO-JWjJ6MfWL7N-bwUL4nzuz3_Lr9di8_QHW2c6G9K7ET_9jDnyglkH0MeOaQ6_JU/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyLXFlQxrNgX0Qfl9rofK_11Tpd_1w4enAFtb973j1aLvm4T7-8fErsOqtQS3SKBIg/exec';
 
 form.addEventListener('submit', e => {
   e.preventDefault();
