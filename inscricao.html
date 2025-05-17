@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscrição - EV Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário de Inscrição - EV Games</h1>
+
+  <form id="form-inscricao">
+    <label for="nome">Nome do Atleta ou Equipe:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="categoria">Categoria:</label><br>
+    <select id="categoria" name="categoria" required>
+      <option value="RX Masculino">RX Masculino</option>
+      <option value="RX Feminino">RX Feminino</option>
+      <option value="Dupla Scaled Masculino">Dupla Scaled Masculino</option>
+      <option value="Dupla Scaled Feminino">Dupla Scaled Feminino</option>
+    </select><br><br>
+
+    <label for="box">Box:</label><br>
+    <input type="text" id="box" name="box" required><br><br>
+
+    <label for="nome-extra">Nome do Segundo Atleta (para duplas):</label><br>
+    <input type="text" id="nome-extra" name="nome-extra"><br><br>
+
+    <button type="submit">Enviar Inscrição</button>
+  </form>
+
+  <p id="mensagem"></p>
+
+  <script src="script-inscricao.js"></script>
+</body>
+</html>
